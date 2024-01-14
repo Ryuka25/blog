@@ -1,0 +1,27 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Lovanirina R.
+theme: ["PaperMod"]
+
+params:
+  author: ["Lovanirina R."]
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: Personnal Notepads 
+    Content: >
+      👋 Welcome to my personnal notepads where I store some notes
+
+      - This is mean to be subjective but you can use content as long as it serve your purpose.
+
+
+  socialIcons:
+    - name: github
+      title: View Account on Github
+      url: "https://github.com/Ryuka25"
