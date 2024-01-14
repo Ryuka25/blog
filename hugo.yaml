@@ -1,6 +1,6 @@
-baseURL: https://ryuka25.github.io//
+baseURL: https://ryuka25.github.io/
 languageCode: en-us
-title: Lovanirina R.
+title: 📝 Postpads
 theme: ["PaperMod"]
 
 params:
@@ -13,15 +13,26 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
 
-  homeInfoParams:
-    Title: Personnal Notepads 
-    Content: >
-      👋 Welcome to my personnal notepads where I store some notes
+  profileMode:
+    enabled: true
+    title: "Lovanirina R." # optional default will be site title
+    subtitle: >
+      👋 Bonjour ! Je suis un **étudiant** passionné par **l'informatique et les nouvelles technologies**... Je suis convaincu que chaque défi représente une opportunité de croissance personnelle et professionnelle, et je suis impatient de mettre mes compétences et mon enthousiasme au service de projets stimulants. 
 
-      - This is mean to be subjective but you can use content as long as it serve your purpose.
-
+      >
+      🌍 N'hésitez pas à me contacter sur Linkedin ou faire un tour sur mon profil Github pour plus d'information. **Merci ! 🌟**
+    imageUrl: "https://media.licdn.com/dms/image/D4D03AQGIqD16x4o_IA/profile-displayphoto-shrink_200_200/0/1704465664698?e=1710979200&v=beta&t=ZdQVAv_ca9MYAaPRn5zUGVoEF2i-tT3YvcXKx0hOrg8" # optional
+    imageTitle: "Lovanirina R. Image" # optional
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
+    buttons:
+      - name: Liste des posts
+        url: "/posts"
 
   socialIcons:
     - name: github
       title: View Account on Github
       url: "https://github.com/Ryuka25"
+    - name: linkedin
+      title: View Account on Linkedin
+      url: "https://www.linkedin.com/in/lovanirina-r/"
