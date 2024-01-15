@@ -6,6 +6,11 @@ theme: ["PaperMod"]
 params:
   author: ["Lovanirina R."]
 
+  comments: true
+  UtterancesRepo: "Ryuka25/blog"
+  UtterancesIssueTerm: "pathname"
+  UtterancesTheme: "github-light"
+
   ShowShareButtons: true
   ShowReadingTime: true
 
@@ -25,9 +30,6 @@ params:
     imageTitle: "Lovanirina R. Image" # optional
     imageWidth: 200 # custom size
     imageHeight: 200 # custom size
-    buttons:
-      - name: Liste des posts
-        url: "/posts"
 
   socialIcons:
     - name: github
@@ -36,3 +38,24 @@ params:
     - name: linkedin
       title: View Account on Linkedin
       url: "https://www.linkedin.com/in/lovanirina-r/"
+
+menu:
+  main:
+    - identifier: posts
+      name: 🗒️ Liste des posts
+      url: /posts/
+      weight: 10
+    - identifier: serach
+      name: 🔍 Search
+      url: /search/
+      weight: 10
+    - identifier: website
+      name: 🌍 ryuka25.github.io
+      url: https://ryuka25.github.io/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
