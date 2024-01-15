@@ -42,10 +42,10 @@ params:
 menu:
   main:
     - identifier: posts
-      name: 🗒️ Liste des posts
+      name: "🗒️ List of posts"
       url: /posts/
       weight: 10
-    - identifier: serach
+    - identifier: search
       name: 🔍 Search
       url: /search/
       weight: 10
