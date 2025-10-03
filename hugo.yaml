@@ -1,4 +1,4 @@
-baseURL: https://ryuka25.github.io/
+baseURL: https://lovanirina-jan-2024.pages.dev/
 languageCode: en-us
 title: 📝 Postpads
 theme: ["PaperMod"]
@@ -26,7 +26,7 @@ params:
 
       >
       🌍 N'hésitez pas à me contacter sur Linkedin ou faire un tour sur mon profil Github pour plus d'information. **Merci ! 🌟**
-    imageUrl: "https://media.licdn.com/dms/image/D4D03AQGIqD16x4o_IA/profile-displayphoto-shrink_200_200/0/1704465664698?e=1710979200&v=beta&t=ZdQVAv_ca9MYAaPRn5zUGVoEF2i-tT3YvcXKx0hOrg8" # optional
+    imageUrl: "https://raw.githubusercontent.com/Ryuka25/ryuka25.github.io/refs/heads/aug-2021/assets/images/moi-square.jpg" # optional
     imageTitle: "Lovanirina R. Image" # optional
     imageWidth: 200 # custom size
     imageHeight: 200 # custom size
@@ -58,4 +58,4 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON 
+    - JSON
